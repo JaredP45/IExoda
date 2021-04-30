@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IExoda.xcodeproj">
+      location = "group:../../../iExpense-Project/iExpense-Project/AddView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../../iExpense-Project/iExpense-Project/ContentView.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../../../iExpense-Project/iExpense-Project/Info.plist">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
