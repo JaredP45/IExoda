@@ -17,6 +17,7 @@
 		3FC1C3BC263C8AA900E70AFB /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1C3BB263C8AA900E70AFB /* AddView.swift */; };
 		3FC1C3BE263C8DD300E70AFB /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1C3BD263C8DD300E70AFB /* OrderView.swift */; };
 		3FC1C3C0263C8DF100E70AFB /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1C3BF263C8DF100E70AFB /* AddOrderView.swift */; };
+		3FF3CBC52642F38800156C59 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3CBC42642F38800156C59 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		3FC1C3BB263C8AA900E70AFB /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		3FC1C3BD263C8DD300E70AFB /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		3FC1C3BF263C8DF100E70AFB /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		3FF3CBC42642F38800156C59 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				3FC1C3BD263C8DD300E70AFB /* OrderView.swift */,
 				3FC1C3BF263C8DF100E70AFB /* AddOrderView.swift */,
 				3FC1C3B9263C8A9900E70AFB /* ExpenseView.swift */,
+				3FF3CBC42642F38800156C59 /* Model.swift */,
 				3FC1C3BB263C8AA900E70AFB /* AddView.swift */,
 				3FB1FF5326399F5400022D95 /* Assets.xcassets */,
 				3FB1FF5826399F5400022D95 /* LaunchScreen.storyboard */,
@@ -165,6 +168,7 @@
 				3FB1FF5226399F5300022D95 /* ContentView.swift in Sources */,
 				3FC1C3BA263C8A9900E70AFB /* ExpenseView.swift in Sources */,
 				3FC1C3C0263C8DF100E70AFB /* AddOrderView.swift in Sources */,
+				3FF3CBC52642F38800156C59 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
