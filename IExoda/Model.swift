@@ -9,6 +9,6 @@
 import Foundation
 
 struct TaskEntry: Codable {
-    let id: Int
-    let title: String
+    let q: String
+    let a: String
 }
