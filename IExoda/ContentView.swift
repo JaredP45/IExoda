@@ -16,7 +16,6 @@ struct ContentView: View {
     @State private var showAlert: Bool = false
     @State private var alertTitle: String = ""
     @State private var alertMessage: String = ""
-    //FIXME @State var results = [TaskEntry]()
     
     init() {
         date = Date()
@@ -42,72 +41,10 @@ struct ContentView: View {
                     Text(dateValue)
                     .padding(20)
                 }
-               
-                
-                Spacer()
-                
                 
                 VStack (alignment: .center) {
                     Text("Do things and you will get things" + "\n" + " - Some wise guy")
                         .padding()
-                    
-                    Text("How do you feel today?")
-                        .padding()
-                    
-                    VStack(alignment: .leading) {
-                        Button(action: {
-                            self.alertTitle = "😃"
-                            self.alertMessage = "I'm glad you're feeling good!"
-                            self.showAlert.toggle()
-                        }) {
-                            Text("😃")
-                        }
-                        
-                        Button(action: {
-                            self.alertTitle = "🙂"
-                            self.alertMessage = "I hope you aren't too bad!"
-                            self.showAlert.toggle()
-                        }) {
-                            Text("🙂")
-                        }
-                        
-                        Button(action: {
-                            self.alertTitle = "😕"
-                            self.alertMessage = "I hope you get better!"
-                            self.showAlert.toggle()
-                        }) {
-                            Text("😕")
-                        }
-                        
-                        Button(action: {
-                            self.alertTitle = "😖"
-                            self.alertMessage = "Oh no! Please talk to someone!"
-                            self.showAlert.toggle()
-                        }) {
-                            Text("😖")
-                        }
-                    }
-                    .padding(.horizontal)
-                    .alert(isPresented: $showAlert) {
-                        return Alert(title: Text(self.alertTitle), message: Text(self.alertMessage), dismissButton: .default(Text("OK")))
-                    }
-                }
-                
-                
-                Spacer()
-                
-                VStack(alignment: .center) {
-                    NavigationLink(destination: OrderView()) {
-                        Text("To Ledger")
-                            .frame(minWidth: 0, maxWidth: 300)
-                        .padding()
-                            .foregroundColor(.white)
-                            .background(LinearGradient(gradient: Gradient(colors: [Color.gray, Color.blue]), startPoint: .leading, endPoint: .trailing))
-                        .cornerRadius(40)
-                            .font(.title)
-                    
-                    }
-                    .padding()
                     
                     NavigationLink(destination: ExpenseView()) {
                         Text("To Expense")
